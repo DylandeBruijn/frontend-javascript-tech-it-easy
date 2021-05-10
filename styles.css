@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: hsl(226, 18%, 14%);
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#inventory-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.information-wrapper {
+}
+
+#total-non-sold-units {
+    color: hsl(0, 100%, 40%);
+}
+
+#total-inventory-yield {
+    color: hsl(210, 100%, 40%);
+}
+
+#total-inventory-sold {
+    color: hsl(120, 100%, 40%);
+}
+
+#sorting-buttons {
+    padding: 30px 50px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 0px;
+    background: hsl(0, 0%, 100%);
+    border: none;
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#product-list {
+    padding: 0px 50px;
+}
+
+#product-list article {
+    padding: 60px 30px;
+    margin-bottom: 25px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#product-list article p {
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+#product-list p:nth-child(1) {
+    font-size: 24px;
+}
+
+#product-list p:nth-child(2) {
+    font-size: 32px;
+}
+
+#product-list p:nth-child(3) {
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
+}
